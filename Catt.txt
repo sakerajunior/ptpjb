@@ -1,0 +1,43 @@
+Online (daring) via Zoom:
+PT. PJB ~ PJB Academy
+Jl. Ketintang Baru No. 11,
+Surabaya, Indonesia 60231
+
+Github: https://github.com/taudata-indonesia/ptpjb
+Modules (kelak persiapkan bit.ly-nya link langsung ke Google Colab):
+ 
+01 - Introduction to Machine Learning and Canvas AI ~ Taufik (06), Rista (05)
+02 - Introduction to Python and Jupyter Notebook ~ Rista (07)
+03 - Exploratory Data Analysis: Preprocessing ~ Taufik (07)
+04 - Exploratory Data Analysis: Visualization ~ Taufik (07)
+05 - Introduction to Clustering Analysis ~ Taufik (09)
+06 - Advanced Clustering Analysis ~ Taufik (09)
+07 - Association Rule ~ Rista (14)
+08 - Regression Analysis ~ Fathu (10)
+09 - Time Series Analysis - Arima ~ fathu (12)
+10 - Time Series Analysis - Prophet ~ fathu (13)
+11 - Introduction to Classification models ~ Taufik (10) 
+12 - Advanced prediction in Machine Learning ~ Taufik (10)
+13 - Introduction to Deep Learning ~ Fathu (05)
+14 - Deep Learning - LSTM ~ Fathu (08)
+15 - Introduction to PosgreSql via Python ~ Rista (08)
+16 - Introduction to PosgresSql for Data Analysis ~ Rista (09)
+17 - Introduction to Python for web development - Flask ~ Rista (10)
+18 - Introduction to Streamlit for Machine Learning Deployment ~ Fathu (15)
+
+Pretest dan kuesioner https://forms.gle/kL7xRMA4PbUgA2eb8
+Link Absen:
+ - https://bit.ly/absen-PTPJB-01
+ - https://bit.ly/absen-PTPJB-02
+ - https://bit.ly/absen-PTPJB-03
+ - https://bit.ly/absen-PTPJB-04
+ - https://bit.ly/absen-PTPJB-05
+ - https://bit.ly/absen-PTPJB-06
+ - https://bit.ly/absen-PTPJB-07
+ - https://bit.ly/absen-PTPJB-08
+ - https://bit.ly/absen-PTPJB-09
+
+kuesioner yang akan disebarkan ke peserta setelah pelatihan selesai.
+https://bit.ly/ptpjb-kuesioner
+
+Link ke Post Test:
