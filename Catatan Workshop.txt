@@ -3,6 +3,8 @@ PT. PJB ~ PJB Academy
 Jl. Ketintang Baru No. 11,
 Surabaya, Indonesia 60231
 
+Pretest dan kuesioner https://forms.gle/kL7xRMA4PbUgA2eb8
+
 Github: https://github.com/taudata-indonesia/ptpjb
  
 01 - Introduction to Machine Learning and Canvas AI ~ Taufik (06), Rista (05)
@@ -42,7 +44,7 @@ Github: https://github.com/taudata-indonesia/ptpjb
 18 - Introduction to Streamlit for Machine Learning Deployment ~ Fathu (15)
    - https://bit.ly/ptpjb-2021-18
    
-Pretest dan kuesioner https://forms.gle/kL7xRMA4PbUgA2eb8
+
 Link Absen:
  - https://bit.ly/absen-PTPJB-01
  - https://bit.ly/absen-PTPJB-02
