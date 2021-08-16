@@ -7,16 +7,6 @@ Pretest dan kuesioner https://forms.gle/kL7xRMA4PbUgA2eb8
 
 Github: https://github.com/taudata-indonesia/ptpjb
  
-setiap chapter/section/topik akan terdiri dari sub-section berikut:
-
-1. Pendahuluan dan Motivasi permasalahan (termasuk sejarah & paper terkait direferensikan disini)
-2. Contoh aplikasi di dunia nyata (cerita kasus). [1 & 2 bisa digabung]
-3. Penjelasan teori singkat, fokus ke "filosofi/makna".
-4. Kelebihan dan kekurangan metode.
-5. Aplikasi menggunakan python
-6. Latihan singkat (kunci jawaban disiapkan)
-7. Latihan kasus yg dikerjakan secara mandiri oleh peserta di waktunya sendiri. (Contoh jawaban kita siapkan juga secara terpisah). 
- 
 01 - Introduction to Machine Learning and Canvas AI ~ Taufik (06), Rista (05)
    - https://bit.ly/ptpjb-2021-01
 02 - Introduction to Python and Jupyter Notebook ~ Rista (07)

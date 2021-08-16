@@ -1,11 +1,15 @@
 """The App."""
 
+import matplotlib.pyplot as plt
+import seaborn as sns
 import pandas as pd
 import numpy as np
 import streamlit as st
 import keras
 import pickle
 import plotly.graph_objects as go
+
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Create sliding window
 def sliding_window(seq, window_size):
@@ -25,7 +29,7 @@ model = keras.models.load_model('anomaly_detection')
 # load the scaler
 scaler = pickle.load(open('scaler.pkl', 'rb'))
 
-threshold = 18.97461056150496
+treshold = 18.209396362304688
 
 st.write("""
 # LSTM Anomaly Detection App for Web Traffic Data
@@ -42,7 +46,7 @@ st.write("""
 
 uploaded_file = st.file_uploader("Choose a file", type='csv')
 
-if uploaded_file is not None:
+if uploaded_file is not None:  
 
     df = pd.read_csv(uploaded_file)
     df['scaled'] = scaler.transform(df[['value']])
@@ -52,10 +56,9 @@ if uploaded_file is not None:
     # Reshape input to be [samples, time steps, features]
     X = X.reshape(X.shape[0], 1, X.shape[1])
     
-    predict = scaler.inverse_transform(model.predict(X))
-    y = scaler.inverse_transform(y)
-    
-    abs_error = np.abs(y - predict)
+    abs_error = np.abs(y - model.predict(X))
+
+    threshold = 0.0890438496934155
 
     test_score_df = pd.DataFrame()
     test_score_df['timestamp'] = df['timestamp'][window_size:]
