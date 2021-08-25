@@ -8,16 +8,16 @@ import pickle
 import plotly.graph_objects as go
 
 # Create sliding window
-def sliding_window(seq, window_size):
+def sliding_window(data, window_size):
     sub_seq, next_values = [], []
-    for i in range(len(seq)-window_size):
-        sub_seq.append(seq[i:i+window_size])
-        next_values.append([seq[i+window_size]])
-    X = np.array(sub_seq)
+    for i in range(len(data)-window_size):
+        sub_seq.append(data[i:i+window_size])
+        next_values.append(data[i+window_size])
+    X = np.stack(sub_seq)
     y = np.array(next_values)
     return X,y
 
-window_size = 10
+window_size = 30
 
 # Load the model from the file
 model = keras.models.load_model('anomaly_detection')
@@ -25,14 +25,14 @@ model = keras.models.load_model('anomaly_detection')
 # load the scaler
 scaler = pickle.load(open('scaler.pkl', 'rb'))
 
-threshold = 18.97461056150496
+threshold = 527.8798828125
 
 st.write("""
 # LSTM Anomaly Detection App for Web Traffic Data
 """)
 
 st.write("""
-### Data format and must be greater than 10 timestamps
+### Data format and must be greater than 30 timestamps
 | timestamp  | value   |
 | -----------|:-------:|
 | 1          | 10      |
@@ -47,30 +47,26 @@ if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
     df['scaled'] = scaler.transform(df[['value']])
     
-    X, y = sliding_window(df['scaled'], window_size)
-    
-    # Reshape input to be [samples, time steps, features]
-    X = X.reshape(X.shape[0], 1, X.shape[1])
+    X, y = sliding_window(df[['scaled']].values, window_size)
     
     predict = scaler.inverse_transform(model.predict(X))
     y = scaler.inverse_transform(y)
     
     abs_error = np.abs(y - predict)
-
-    test_score_df = pd.DataFrame()
-    test_score_df['timestamp'] = df['timestamp'][window_size:]
-    test_score_df['value'] = df['value'][window_size:]
-    test_score_df['loss'] = abs_error
-    test_score_df['threshold'] = threshold
-    test_score_df['anomaly_hat'] = 0
-    test_score_df.loc[test_score_df.loss >= test_score_df.threshold, 'anomaly_hat'] = 1
     
-    anomalies = test_score_df.loc[test_score_df['anomaly_hat'] == 1]
+    test_anomaly = pd.DataFrame()
+    test_anomaly['timestamp'] = df['timestamp'][window_size:]
+    test_anomaly['value'] = df['value'][window_size:]
+    test_anomaly['abs_error'] = abs_error
+    test_anomaly['anomaly_hat'] = 0
+    test_anomaly.loc[test_anomaly['abs_error'] >= threshold, 'anomaly_hat'] = 1
+    
+    anomalies = test_anomaly.loc[test_anomaly['anomaly_hat'] == 1]
 
     st.write("Visualize Detected Anomalies from Data")  
 
     fig = go.Figure()
-    fig.add_trace(go.Scatter(x=test_score_df['timestamp'], y=test_score_df['value'], name='value'))
+    fig.add_trace(go.Scatter(x=test_anomaly['timestamp'], y=test_anomaly['value'], name='value'))
     fig.add_trace(go.Scatter(x=anomalies['timestamp'], y=anomalies['value'], mode='markers', name='Anomaly'))
     fig.update_layout(showlegend=True, title='Detected anomalies')
     st.plotly_chart(fig)
