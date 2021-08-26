@@ -1,0 +1,994 @@
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-576691c0781f620b"></script>
+
+
+ 
+<meta property="og:image"   content="http://www.bangda.kemendagri.go.id/images/logoutama.png" />
+ 	<meta property="og:title"         content="DTIJEN BINA PEMBANGUNAN DAERAH" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DITJEN BINA PEMBANGUNAN DAERAH</title>
+<link rel="shortcut icon" href="http://www.bangda.kemendagri.go.id/images/icon.jpg" type="image/x-icon" />
+<link rel="icon" href="http://www.bangda.kemendagri.go.id/images/icon.jpg" type="image/x-icon">
+<!-- bootstrap styles-->
+<link href="http://www.bangda.kemendagri.go.id/css/bootstrap.min.css" rel="stylesheet">
+<!-- google font -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' rel='stylesheet' type='text/css'>
+<!-- ionicons font -->
+<link href="http://www.bangda.kemendagri.go.id/css/ionicons.min.css" rel="stylesheet">
+<!-- animation styles -->
+<link rel="stylesheet" href="http://www.bangda.kemendagri.go.id/css/animate.css" />
+<!-- custom styles -->
+<link href="http://www.bangda.kemendagri.go.id/css/custom-blue.css" rel="stylesheet" id="style">
+<!-- owl carousel styles-->
+<link rel="stylesheet" href="http://www.bangda.kemendagri.go.id/css/owl.carousel.css">
+<link rel="stylesheet" href="http://www.bangda.kemendagri.go.id/css/owl.transitions.css">
+ 
+<link rel="stylesheet" href="http://www.bangda.kemendagri.go.id/css/magnific-popup.css">
+<script type="text/javascript" src="http://www.bangda.kemendagri.go.id/js/jquery.min.js"></script>
+ 
+<link type="text/css" href="http://www.bangda.kemendagri.go.id/js/jqueryui/css/custom-theme/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+   <script type="text/javascript">
+    get_stat();
+    get_berita_kemendagri();
+    get_berita_bangda();
+    function get_stat(){
+      $.ajax({
+            url:'http://www.bangda.kemendagri.go.id/home/get_stat/',      
+            type:'POST',
+             success:function(data){ 
+                 $("#stat").html(data);
+               
+             }
+        });   
+    }
+    function get_berita_kemendagri(){  $("#berita_kemendagri").html("<img src='images/loading.gif'>");    
+      $.ajax({
+            url:'http://www.bangda.kemendagri.go.id/home/get_berita_kemendagri/',      
+            type:'POST',
+            success:function(data){ 
+                 $("#berita_kemendagri").html(data);              
+             }
+        });
+    }
+   function get_berita_bangda(){
+      $("#berita_bangda").html("<img src='images/loading.gif'>");
+      $.ajax({
+            url:'http://www.bangda.kemendagri.go.id/home/get_berita_bangda/',      
+            type:'POST',
+            success:function(data){ 
+                 $("#berita_bangda").html(data);              
+             }
+        });
+    }
+</script>
+<script>
+ 
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79588002-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    <style type="text/css">
+    .at4-share{
+      margin-top:22px;
+    }
+    .banner{
+      height: 60px !important;width: 70px !important;
+    }
+    .img-yusup{
+      height:  98px  !important;width: 250px !important;
+    }
+     .jurnal{
+     height: 170px !important;width:140px !important;
+    }
+    	 body{ background: url(http://www.bangda.kemendagri.go.id//images/pattern-1.png); }
+       .bayangan { -webkit-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.5);-moz-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.5);box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.5); }
+    </style>
+ <include expiration='7d' path='*.css'/>
+<include expiration='7d' path='*.js'/>
+<include expiration='3d' path='*.gif'/>
+<include expiration='3d' path='*.jpeg'/>
+<include expiration='3d' path='*.jpg'/>
+<include expiration='3d' path='*.png'/>
+<meta http-equiv="expires" content="sat, 02 jun 2020 00:00:00 GMT"/>
+</head>
+
+<body>
+ 
+<!-- preloader end --> 
+ 
+<!-- wrapper start -->
+<div class="wrapper"> 
+  <!-- header toolbar start -->
+  <div class="header-toolbar" style="background-color: #1C3587;color: #fff">
+    <div class="container" style=" ">
+      <div class="row">
+        <div class="col-md-16 text-uppercase">
+          <div class="row">
+            <div class="col-sm-8 col-xs-16">
+              <table>
+                  <tr>
+                      <td rowspan="1"><img style="height: 50px;margin-right: 10px"  src="http://www.bangda.kemendagri.go.id/images/logoutama.png"></td>
+                  
+                      <td style="vertical-align: top">
+                        <h1 style="margin:0px;color: #fff;font-family:Titillium Web, sans-serif;">DITJEN BINA PEMBANGUNAN DAERAH</h1>
+                        <h5 style="margin:0px;color: #fff;font-family:Titillium Web, sans-serif;">KEMENTERIAN DALAM NEGERI</h5> 
+                       <ul id="inline-popups" class="list-inline" >
+                <li class="hidden-xs"><a href="#"> <span><i class="glyphicon glyphicon-phone"></i> Telepon : 021 7942653</span></a></li>
+                <li> <span><i class="glyphicon glyphicon-envelope"></i> Email: info@bangda.kemendagri.go.id</span></li>
+               </ul></td>
+                  </tr> 
+              </table>
+              
+             
+             
+            </div>
+            <div class="col-xs-16 col-sm-8">
+              <div class="row">
+                <div id="weather" class="col-xs-16 col-sm-8 col-lg-9"></div>
+                <div id="time-date" class="col-xs-16 col-sm-8 col-lg-7"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header toolbar end --> 
+  
+  <!-- sticky header start -->
+  <div class="sticky-header"> 
+    <!-- header start -->
+        <div class="container header" style="display: none; background: url(http://www.bangda.kemendagri.go.id/uploads/)   center;width: 100%;">
+      <div class="row">
+        <div class="col-sm-5 col-md-5 wow fadeInUpLeft animated"><a class="navbar-brand" href="http://www.bangda.kemendagri.go.id/"></a></div>
+       </div>
+    </div>
+    <!-- header end --> 
+    <!-- nav and search start -->
+    <div class="nav-search-outer"> 
+      <!-- nav start -->
+      
+      <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-16">  
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav text-uppercase main-nav ">
+                  <li class="active"><a style=";font-size: 13px !important;font-weight: normal"  href="http://www.bangda.kemendagri.go.id/">HOME </a></li>
+                                                   	  
+                                	
+                                  <li class="dropdown"> <a style="font-weight: normal;;font-size: 12px" href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">BERITA  <span class="ion-ios7-arrow-down nav-icn"></span></a>
+                        
+                                        <ul class="dropdown-menu text-capitalize" role="menu">
+                                                                                                                                                    <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/berita/key">BERITA BANGDA </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/berita/kemendagri">BERITA KEMENDAGRI </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                
+                                        </li> 
+                                    </ul>
+
+
+
+                                                                	  
+                                	
+                                  <li class="dropdown"> <a style="font-weight: normal;;font-size: 12px" href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">PROFIL  <span class="ion-ios7-arrow-down nav-icn"></span></a>
+                        
+                                        <ul class="dropdown-menu text-capitalize" role="menu">
+                                                                                                                                                    <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/kontent/baca_kontent/10/struktur_organisasi_bangda">STRUKTUR ORGANISASI BANGDA </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/profil_pejabat">PROFIL PEJABAT </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/kontent/baca_kontent/11/visi_misi_dan_tujuan">VISI MISI DAN TUJUAN </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/kontent/baca_kontent/12/tugas_dan_fungsi">TUGAS DAN FUNGSI </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/kontak">KONTAK </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                
+                                        </li> 
+                                    </ul>
+
+
+
+                                                                	  
+                                	
+                                  <li class="dropdown"> <a style="font-weight: normal;;font-size: 12px" href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">PRODUK HUKUM  <span class="ion-ios7-arrow-down nav-icn"></span></a>
+                        
+                                        <ul class="dropdown-menu text-capitalize" role="menu">
+                                                                                                                                                    <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/peraturan/undang_undang">UNDANG UNDANG </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/peraturan/perpu">PERPU </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/peraturan/peraturan_pemerintah">PERATURAN PEMERINTAH </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/peraturan/peraturan_presiden">PERATURAN PRESIDEN </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/peraturan/keputusan_presiden">KEPUTUSAN PRESIDEN </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/peraturan/instruksi_presiden">INSTRUKSI PRESIDEN </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/peraturan/peraturan_menteri/">PERATURAN MENTERI </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/peraturan/keputusan_menteri">KEPUTUSAN MENTERI </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/peraturan/instruksi_menteri">INSTRUKSI MENTERI </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/peraturan/surat_edaran">SURAT EDARAN </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                
+                                        </li> 
+                                    </ul>
+
+
+
+                                                                	  
+                                	
+                                  <li class="dropdown"> <a style="font-weight: normal;;font-size: 12px" href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">PENGADUAN  <span class="ion-ios7-arrow-down nav-icn"></span></a>
+                        
+                                        <ul class="dropdown-menu text-capitalize" role="menu">
+                                                                                                                                                    <li> <a style="font-weight: normal;"  href="http://sapa.kemendagri.go.id/">SAPA KEMENDAGRI </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="https://www.lapor.go.id/">LAPOR ! </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://raskin.bangda.kemendagri.go.id/">RASKIN </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                
+                                        </li> 
+                                    </ul>
+
+
+
+                                                                	  
+                                                                		 <li class="active"><a style="font-weight: normal;font-size: 12px"  href="http://bangda.kemendagri.go.id/berita/baca_kontent/1256">INFORMASI PUBLIK </a></li>	
+                                	                                	  
+                                                                		 <li class="active"><a style="font-weight: normal;font-size: 12px"  href="https://rb.kemendagri.go.id/">REFORMASI BIROKRASI </a></li>	
+                                	                                	  
+                                	
+                                  <li class="dropdown"> <a style="font-weight: normal;;font-size: 12px" href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">PUBLIKASI  <span class="ion-ios7-arrow-down nav-icn"></span></a>
+                        
+                                        <ul class="dropdown-menu text-capitalize" role="menu">
+                                                                                                                                                    <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/kontent/baca_kontent/155/pohon_kinerja">POHON KINERJA </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/galeri">GALERI </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                                                                                                                        <li> <a style="font-weight: normal;"  href="http://www.bangda.kemendagri.go.id/lapkin">LAPKIN </a>
+                                                         
+
+                                                    </li> 
+
+                                                    
+                                                
+                                        </li> 
+                                    </ul>
+
+
+
+                                                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- nav end --> 
+        <!-- search start -->
+        
+     
+        <!-- search end --> 
+      </nav>
+      <!--nav end--> 
+    </div>
+    <!-- nav and search end--> 
+  </div>
+  <!-- sticky header end --> 
+  <!-- top sec start -->
+          <!-- search end --> 
+      </nav>
+      <!--nav end--> 
+    </div>
+    <!-- nav and search end--> 
+  </div>
+  <div class="container bayangan" style="background-color: #fff;padding: 5px">
+    <div class="row"> 
+      <!-- hot news start -->
+      <div class="col-sm-16 hot-news hidden-xs" style="background-color: #142356">
+        <div class="row">
+          <div class="col-sm-15"> <span class="ion-ios7-timer icon-news pull-left"></span>
+          <marquee style="width: 94%;float:right" scrollamount="5">
+              
+           </marquee>
+          </div>
+          <div class="col-sm-1 shuffle text-right"><a href="#"><span class="ion-shuffle"></span></a></div>
+        </div>
+      </div>
+      <!-- hot news end --> 
+      <!-- banner outer start -->
+      <div  class="col-sm-16 banner-outer wow fadeInLeft animated" data-wow-delay="1s" data-wow-offset="50">
+        <div class="row">
+          <img style="width:99%;margin:5px" src="http://www.bangda.kemendagri.go.id/uploads/mendagri_new.jpg">
+          <div class="col-sm-16 col-md-10 col-lg-8">             
+            <!-- carousel start -->
+            <div id="sync1" class="owl-carousel">
+                
+            </div>
+            <div class="row">
+              <div id="sync2" class="owl-carousel">
+                  
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-8 hidden-sm hidden-xs">
+            <div class="row">
+              
+              <div class="col-lg-6 hidden-md">
+                  
+                
+                 </div>
+
+              <div class="col-md-16 col-lg-10">
+                <div class="row">
+                                        <a href="http://www.bangda.kemendagri.go.id/berita/baca_kontent/1186/">
+
+                  <div class="col-sm-16 right-img-top "> 
+                    <div class="box">
+                      <img class="img-responsive" src="http://www.bangda.kemendagri.go.id/images/klhs.jpg"   width="440" height="292" alt=""/>
+                   
+                      <div class="overlay"></div>
+                      <div class="overlay-info">
+                        
+                      </div>
+                    </div>
+                    </div>
+                     </a>
+                  <div class="col-sm-16 right-img-btm "> <a href="http://www.bangda.kemendagri.go.id/form_konsultasi">
+                    <div class="box">
+                      <div class="carousel-caption">Permohonan Konsultasi Bangda</div>
+                      <img class="img-responsive" src="http://www.bangda.kemendagri.go.id/images/permohonankonsultas.jpg" width="440" height="292" alt=""/>
+                      <div class="overlay"></div>
+                      
+                    </div>
+                    </a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner outer end --> 
+      
+    </div>
+  </div>
+  <!-- top sec end --> 
+  
+  <!-- data start -->
+  
+  <div class="container bayangan"  style="background-color: #fff;padding: 5px">
+    <div class="row "> 
+      <!-- left sec start -->
+      <div class="col-md-11 col-sm-11">
+        
+        <div class="row"> 
+          <!-- business start -->
+          <div class="col-sm-16 business  wow fadeInDown animated" data-wow-delay="1s" data-wow-offset="50" style="display: none">
+            <div class="main-title-outer pull-left" >
+              <div class="main-title" style="background-color: #F39C12;border-left:#F39C12">BERITA TERBARU</div>
+              <div class="span-outer"><span class="pull-right text-danger last-update"><div class="main-title-outer pull-left" >
+              <div class="main-title" style="background-color: #313599;border-left:#313599">BERITA NASIONAL</div>
+              
+            </div></span> </div>
+            </div>
+            <div class="row">
+              <div class="col-md-11 col-sm-16">
+                <div class="row" >
+                  <div class="col-md-8 col-sm-9 col-xs-16" style="padding-left: 10px">
+                    
+                     <a href="http://www.bangda.kemendagri.go.id/berita/key" class="btn btn-primary btn-block"><i class="glyphicon glyphicon-tag"></i> BERITA BARU LAINNYA</a>
+                  </div>
+                  <div class="col-md-8 col-sm-7 col-xs-16">
+                    <ul class="list-unstyled">
+                       
+
+                    
+                    </ul>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 col-sm-16 hidden-sm hidden-xs  left-bordered">
+                 
+                <div id="vid-thumbs" class="owl-carousel">
+                  
+                  <div class="item">
+                    <div class="vid-thumb-outer">
+                        
+                   
+                    </div>
+                  </div>
+                    
+
+                 
+                </div>
+                <a href="http://www.bangda.kemendagri.go.id/berita/tags/3/NASIONAL" class="btn btn-danger  btn-block"><i class="glyphicon glyphicon-tag"></i> BERITA NASIONAL LAINNYA</a>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <!-- business end --> 
+          
+          <!-- Science & Travel start -->
+          <div class="col-sm-16">
+            <div class="row">
+              <div class="col-xs-16 col-sm-8  wow fadeInLeft animated science" data-wow-delay="0.5s" data-wow-offset="130">
+                <div class="main-title-outer pull-left">
+                  <div class="main-title" style="background-color: #85144B">BERITA KEMENDAGRI</div>
+                  <div class="span-outer"><span class="pull-right text-danger last-update"><span class="ion-android-data icon"></span></span> </div>
+                </div>
+                <div class="row" id="berita_kemendagri">
+                    <img src="http://www.bangda.kemendagri.go.id/images/loading.gif">
+                </div>
+              </div>
+              <div class="col-sm-8 col-xs-16 wow fadeInRight animated" data-wow-delay="0.5s" data-wow-offset="130">
+                <div class="main-title-outer pull-left">
+                  <div class="main-title" style="background-color: #D05947">BERITA BANGDA</div>
+                  <div class="span-outer"><span class="pull-right text-danger last-update"><span class="ion-android-data icon"></span></span> </div>
+                </div>
+                <div class="row left-bordered" id="berita_bangda">
+                 
+                </div>
+                <a class="btn btn-primary " href="http://www.bangda.kemendagri.go.id/berita/key">BERITA BANGDA LAINNYA</a>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <!-- Scince & Travel end --> 
+          <!-- lifestyle start-->
+       
+          <div class="col-sm-16 wow fadeInUp animated " style="display: none" data-wow-delay="0.5s" data-wow-offset="100">
+            <div class="main-title-outer pull-left">
+              <div class="main-title" style="background-color: #8FAE26">Olahraga</div>
+              <div class="span-outer"><span class="pull-right text-danger last-update"><span class="ion-android-data icon"></span></span> </div>
+            </div>
+            <div class="row">
+              <div id="owl-lifestyle" class="owl-carousel owl-theme lifestyle pull-left">
+                                
+               
+              </div>
+            </div>
+            <hr>
+          </div>
+          <br>
+          <!-- lifestyle end --> 
+                <div class="col-sm-16 recent-vid wow fadeInDown animated " style="margin-bottom: 30px" data-wow-delay="0.5s" data-wow-offset="50">
+            <div class="main-title-outer pull-left">
+              <div class="main-title" style="background-color: #3897D1">JURNAL DAN BULETIN</div>
+              <div class="span-outer"><span class="pull-right text-primary last-update"><span class="ion-android-data icon"></span></span> </div>
+            </div>
+                              <ul class="jcarousel-list" style="left: 0px;">
+                                                        <center>  <li>
+                               Data Tidak Tersedia
+                            </li></center>
+                             
+                                                      </ul>
+                       <a class="btn btn-info pull-right" href="http://www.bangda.kemendagri.go.id/jurnal_dan_buletin">JURNAL & BULETIN LAINNYA</a>
+                       </div>
+                       <br>
+                       <br>          <br>
+          <br>
+
+             <div class="col-sm-16 recent-vid wow fadeInDown animated " data-wow-delay="0.5s" data-wow-offset="50">
+            <div class="main-title-outer pull-left">
+              <div class="main-title" style="background-color: #E7453C">recent videos</div>
+              <div class="span-outer"><span class="pull-right text-danger last-update"><span class="ion-android-data icon"></span></span> </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-11 col-xs-16"> 
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div id="vid-first" style="height: 345px !important" class="tab-pane embed-responsive embed-responsive-16by9 active">
+                  	    
+
+                  
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col-sm-5 col-xs-2"> <!-- required for floating --> 
+                <!-- Nav tabs -->
+                <div class="owl-item" style="width: 236px;"><div class="item">
+                    <div class="vid-thumb-outer">
+                        
+                    </div>
+                  </div></div>
+                  <a class="btn btn-primary" href="http://www.bangda.kemendagri.go.id/video">VIDEO LAINNYA</a>	
+              </div>
+            </div>
+            <hr>
+  
+ 
+
+  <div class="main-title" style="background-color: #428BCA">STATUS REFORMASI BIROKRASI BANGDA</div>
+  <br><br>  <br> 
+  <p style=" text-align: justify;
+  text-justify: inter-word;"> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; <b style="color: #BC0000">Reformasi Birokrasi</b> merupakan upaya pemerintah untuk mencapai good governance dan melakukan pembaharuan dan perubahan mendasar  terhadap sistem penyelengaraan permerintahan ,terutama menyangkut aspek-aspek kelembagaan ,ketatalaksanaan dan SDM Aparatur , Reformasi Birokrasi Kementerian Dalam Negeri Dilakukan Untuk Mewujudkan Birokrasi Kementerian Dalam Negeri yang RESPECT (Responsible ,Effective ,Samrt ,Professional,Efficient ,Creative and Trust).</p>
+  <hr><br>
+    <div class="row">    
+        
+         <hr>
+         <a class="btn btn-success" href="http://www.bangda.kemendagri.go.id/rb"> LIHAT CAPAIAN LAINNYA</a>
+    </div>
+ 
+
+          </div>
+          <!--Recent videos end--> 
+          <!--wide ad start-->
+        
+          <!--wide ad end--> 
+          
+        </div>
+       </div>
+      <!-- left sec end --> 
+      <!-- right sec start -->
+      <div class="col-sm-5 hidden-xs right-sec">
+                  <script type="text/javascript">
+         $(document).ready(function() {
+               var dates = ['2019-11-04','2019-11-08','2019-11-11','2019-11-12','2019-11-15','2019-11-19',];
+                       $("#kalender").datepicker({
+                          inline: true,
+                              onSelect: function(selectedDate) {
+                               load_jadwal_rapat_by_date(selectedDate);
+                              
+                          }, 
+                          beforeShowDay : function(date){
+                                  var y = date.getFullYear().toString(); 
+                                   var m = (date.getMonth() + 1).toString();  
+                                  var d = date.getDate().toString();  
+                                  if(m.length == 1){ m = '0' + m; }  
+                                  if(d.length == 1){ d = '0' + d; }  
+                                  var currDate = y+'-'+m+'-'+d;
+                                 
+                                  if(dates.indexOf(currDate) >= 0){
+                                      return [true, "ui-highlight"];  
+                                  }else{
+                                      return [true];
+                                  }                   
+                              }
+                      });
+                        $( ".ui-state-default" ).click(function() {
+                           
+                        });
+          });
+   function load_jadwal_rapat_by_date(date){
+         $("#kontentnya").html("<center><img src='http://www.bangda.kemendagri.go.id/images/loading.gif'></center>");
+         $("#kontentnya" ).dialog({ title:"Info...", draggable: true,top:"10px",modal: true,width:"1000",
+                 buttons: {
+                      "Tutup": function(){
+                           $(this).dialog("close");
+                        }
+                     }
+                });     
+        $.ajax({
+            url:'http://www.bangda.kemendagri.go.id/home/load_jadwal_rapat_by_date/'+date,      
+            type:'POST',
+            data:'date='+date,
+            success:function(data){ 
+                 $("#kontentnya").html(data);
+                $("#kontentnya table").addClass('table table-bordered table-striped');
+              
+             }
+        });     
+    }
+      </script>
+      <div id="kontentnya" style="display:none"></div>
+      <style type="text/css">
+        .ui-datepicker-inline{
+          width: 100%;
+          border-radius: 5px !important;
+         }
+       
+        .ui-highlight .ui-state-default{
+          background: #4682B4 !important;
+          border-color: #4682B4 !important;
+          color: white !important;
+        }
+       
+       .specialDate a {
+        border: 1px solid #fed22f !important; 
+        background: #ffe45c url(http://bangda.kemendagri.go.id/css/themes/images/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x !important; 
+        color: #000 !important; font-weight:bold; }
+        .ui-widget-content{
+          width:100%;
+
+        } 
+        select{
+          color:#000;
+          border-radius:3px;
+          padding:3px;
+        }
+        .ui-datepicker-year{
+          margin-left:2px !important;
+
+        }    
+        small  { 
+          text-transform: uppercase;
+        }
+
+      </style> 
+     
+       
+        <div class="bordered top-margin" style="margin-top: 0px">
+          <div class="row ">
+            <div class="col-sm-16 bt-space wow fadeInUp animated" data-wow-delay="1s" data-wow-offset="50"> 
+            <form id="pencarian" name="pencarian" method="GET" action="http://www.bangda.kemendagri.go.id/berita/hasil_pencarian" style="padding: 5px;" >
+            <input type="text" class="form-control" name="s" placeholder="PENCARIAN BERITA">
+            <br>
+            <div style="border:1px solid #dedede;margin-top: 10px;border-radius:5px;">
+            <a href="https://sipd.kemendagri.go.id/dashboard_profil/" target="_blank">
+            	<img src="http://www.bangda.kemendagri.go.id/images/profil_daerah.jpg" style="width: 100%">
+        	</a>
+	        </div>
+            	<h3><img src="http://www.bangda.kemendagri.go.id/images/icon.jpg" style="height: 25px;width: 20px"> PROFIL DAERAH SIPD</h3> 
+            </form>   
+         
+            <div class="col-sm-16 bt-spac wow fadeInUp animated" data-wow-delay="1s" data-wow-offset="150">
+              <div class="table-responsive">
+                <table class="table table-bordered social">
+                  <tbody>
+                    <tr>
+                                                           <td colspan="1"><a target="_blank" class="rss" href="http://bangda.kemendagri.go.id/rss"  style="background-color: #FF7700">
+                                        <p style="color: #fff" > <span class="ion-social-rss" ></span>SUBSCRIBE <br>TO RSS</p>
+                                    </a></td>
+                                                                 <td colspan="1"><a target="_blank" class="twitter" href="https://twitter.com/bina_bangda?lang=en"  style="background-color: #33BCFF">
+                                        <p style="color: #fff" > <span class="ion-social-twitter" ></span>TWITTER FOLLOWERS</p>
+                                    </a></td>
+                                                                 <td colspan="1"><a target="_blank" class="facebook" href="https://www.facebook.com/bina.bangda/"  style="background-color: #313599">
+                                        <p style="color: #fff" > <span class="ion-social-facebook"  ></span>FACEBOOK PAGE</p>
+                                    </a></td>
+                              
+                    </tr>
+                    <tr>
+                                                      <td colspan="1"><a target="_blank"  href="https://www.youtube.com/channel/UCP5wOFlz8kI4nlOFqf4XGhQ" class="youtube"  style="background-color: #BF0000">
+                                      <p style="color: #fff" > <span class="ion-social-youtube" ></span>YOUTUBE SUBSCRIBER</p>
+                                  </a></td>
+                                                             <td colspan="1"><a target="_blank"  href="https://www.instagram.com/bina.bangda/?hl=en" class="instagram"  style="background-color: #D43590">
+                                      <p style="color: #fff" > <span class="ion-social-instagram"></span>INSTAGRAM <br> &nbsp;</p>
+                                  </a></td>
+                                                             <td colspan="1"><a target="_blank"  href="http://101.255.10.231" class="cloud"  style="background-color: #132356">
+                                      <p style="color: #fff" > <span class="ion-cloud"></span>CLOUD <br>BANGDA</p>
+                                  </a></td>
+                                                 
+                  </tbody>
+                </table>
+              </div>
+            </div>
+                       <div class="col-sm-12 "  >
+            <div class="f-title"></div>
+            <ul class="tags list-unstyled pull-left">
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/1/SeputarBangda">Seputar Bangda</a></li>
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/4/Politik">Politik</a></li>
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/6/SosialBudaya">Sosial Budaya</a></li>
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/7/Agama">Agama</a></li>
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/8/Pariwisata">Pariwisata</a></li>
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/9/Aktual">Aktual</a></li>
+                            </ul>
+          </div>
+            <!-- activities start -->
+            <div class="col-sm-16 bt-space wow fadeInUp animated" data-wow-delay="1s" data-wow-offset="130"> 
+              <!-- Nav tabs -->
+                          <br>
+            <a class="btn btn-block btn-primary" href="http://www.bangda.kemendagri.go.id/job">LOWONGAN PEKERJAAN</a>
+            <br>
+
+              <ul class="nav nav-tabs nav-justified " role="tablist">
+                <li><a style="height: 60px" href="#popular" role="tab" data-toggle="tab">APLIKASI BANGDA</a></li>
+                <li class="active"><a style="height: 60px" href="#recent" role="tab" data-toggle="tab">LAYANAN PENGADUAN</a><br></li>
+                <li><a style="height: 60px" href="#comments" role="tab" data-toggle="tab">FASILITAS INTERNAL<br></a><br></li>
+              </ul>
+              
+              <!-- Tab panes -->
+              <div class="tab-content">
+              	         <div class="tab-pane" id="popular">
+                  <ul class="list-unstyled">
+                       
+                  </ul>
+                </div>
+                                <div class="tab-pane active" id="recent">
+                  <ul class="list-unstyled">
+                    
+                  </ul>
+                </div>
+
+                <div class="tab-pane" id="comments">
+                  <ul class="list-unstyled">
+                       
+                    
+                  </ul>
+                </div>
+       
+              </div>
+            </div>
+            <!-- activities end --> 
+            <!-- radio start -->
+            <div class="col-sm-16 bt-space wow fadeInUp animated" data-wow-delay="1s" data-wow-offset="100">
+              <div class="main-title-outer pull-left" style="width: 100%">
+                <div class="main-title" style="width: 100%;background-color: #F39C12"><i class="glyphicon glyphicon-signal"></i> STATISTIK KUNJUNGAN</div>
+              </div>
+              <div id="stat"></div>
+             </div>
+    <div class="col-sm-16 bt-space wow fadeInUp animated" data-wow-delay="1s" data-wow-offset="50" style="width: 100%;margin-top:20px">
+        <div class="main-title-outer pull-left">
+                <div class="main-title"  style="background-color: #5CB85C"><i class="glyphicon glyphicon-calendar"></i> AGENDA KEGIATAN</div>
+              </div>
+              <div id="kalender" class="kalender pull-left" style="width: 100%"></div>
+            </div>
+            <div class="col-sm-16 bt-space wow fadeInUp animated" data-wow-delay="1s" data-wow-offset="100">
+              <div class="main-title-outer pull-left">
+                <div class="main-title"><i class="glyphicon glyphicon-tag"></i>  POLLING</div>
+              </div>
+              <iframe width="100%" height="270" scrolling="no" frameborder="no" src="http://www.bangda.kemendagri.go.id/home/polling"></iframe>
+            </div>
+      
+        
+            <!-- calendar end --> 
+            <!-- flicker imgs start -->
+            <div class="col-sm-16 bt-space wow fadeInUp animated" data-wow-delay="1s" data-wow-offset="35" style="display: none">
+              <div class="main-title-outer pull-left" >
+                <div class="main-title" style="background-color: #00A65A;border-left:#00A65A"><i class="glyphicon glyphicon-picture"></i>  GALERI KEGIATAN</div>
+              </div>
+              <ul class="list-inline">
+                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/207"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/205"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20191104050130_WhatsAppImage2019-11-04at16.42.35.jpeg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/204"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20191104075347_WhatsAppImage2019-11-03at20.33.51(1).jpeg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/203"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20191031025319_4.jpg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/202"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20191031025442_3.jpg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/201"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20191016033942_1.jpg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/200"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20191016023343_1.jpg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/199"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20191009042717_2.jpg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/198"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20191009042634_1.jpg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/197"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20190930064123_1.jpg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/196"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20190923022313_1.jpg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/195"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20190919100526_WhatsAppImage2019-09-18at18.38.52(1).jpeg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/194"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20190919095646_1.jpg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/193"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20190919095145_1.jpg" style="height: 55px;width: 55px" alt="9"></li>
+                                 <li><a class="mfp-gallery" title="9" href="http://www.bangda.kemendagri.go.id/galeri/detail/192"><i class="fa fa-search"></i><div class="hover"></div></a><img src="http://www.bangda.kemendagri.go.id/uploads/avatar/20190919093215_1.jpg" style="height: 55px;width: 55px" alt="9"></li>
+                                              </ul>
+            </div>
+            
+            <!-- flicker imgs end --> 
+          </div>
+        </div>
+       </div>
+      <!-- right sec end --> 
+    </div>
+  </div>
+  <!-- data end --> 
+  
+  <!-- Footer start -->
+  
+  <footer>
+    <div class="top-sec">
+      <div class="container " >
+        <div class="row match-height-container">
+          <div class="col-sm-6 subscribe-info wow fadeInDown animated" data-wow-delay="1s" data-wow-offset="40">
+            <div class="row">
+              <div class="col-sm-16">
+                <div class="f-title">DITJEN BINA PEMBANGUNAN DAERAH<br>KEMENTERIAN DALAM NEGERI</div>
+              
+                <ul style="margin: 0px;padding: 0px;color: #fff;">
+                  <a class="copyright">© Copyright 2016 Ditjen Bina Pembangunan daerah | </a><a>Kementerian Dalam Negeri</a><br>
+                   <i class="fa fa-map-marker"></i><!-- <strong>Address</strong>: -->      Jl. Taman Makam Pahlawan No. 20 Kalibata, Jakarta Selatan<br>
+                   <i class="fa fa-user"></i><!-- <strong>Phone</strong>: -->       021 7942653<br>
+                   <!-- <li><i class="fa fa-user"></i> <p><strong>Fax</strong>: 021 7942653</p></li> -->
+                   <i class="fa fa-envelope"></i> <!-- <strong>Email</strong>: -->      info@bangda.kemendagri.go.id 
+               </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5 popular-tags  wow fadeInDown animated" data-wow-delay="1s" data-wow-offset="40">
+            <div class="f-title">Pencarian Berdasarkan Kategori</div>
+            <ul class="tags list-unstyled pull-left">
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/1/SeputarBangda">Seputar Bangda</a></li>
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/4/Politik">Politik</a></li>
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/6/SosialBudaya">Sosial Budaya</a></li>
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/7/Agama">Agama</a></li>
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/8/Pariwisata">Pariwisata</a></li>
+                                                                 <li><a href="http://www.bangda.kemendagri.go.id/berita/tags/9/Aktual">Aktual</a></li>
+                            </ul>
+          </div>
+          <div class="col-sm-5 recent-posts  wow fadeInDown animated" data-wow-delay="1s" data-wow-offset="40">
+            <div class="f-title">WEBSITE KOMPONEN</div>
+            <ul class="list-unstyled">
+                                         <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://www.kemendagri.go.id/">
+                              &bull; Kemendagri Pusat</a></li>
+                                                     <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://www.setjen.kemendagri.go.id/">
+                              &bull; Sekretariat Jenderal</a></li>
+                                                     <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://kesbangpol.kemendagri.go.id/">
+                              &bull; Ditjen Politik dan Pemerintahan Umum</a></li>
+                                                     <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://ditjenbinaadwil.kemendagri.go.id/">
+                              &bull; Ditjen Bina Administrasi Kewilayahan</a></li>
+                                                     <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://otda.kemendagri.go.id/">
+                              &bull; Ditjen Otonomi Daerah</a></li>
+                                                     <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://www.binapemdes.kemendagri.go.id/">
+                              &bull; Ditjen Bina Pemerintahan Desa</a></li>
+                                                     <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://keuda.kemendagri.go.id/">
+                              &bull; Ditjen Bina Keuangan Daerah</a></li>
+                                                     <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://www.dukcapil.kemendagri.go.id/">
+                              &bull; Ditjen Kependudukan dan Pancatatan Sipil</a></li>
+                                                     <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://itjen.kemendagri.go.id/">
+                              &bull; Inspektorat Jenderal</a></li>
+                                                     <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://bpp.kemendagri.go.id/">
+                              &bull; Badan Penelitian dan Pengembangan</a></li>
+                                                     <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://bpsdm.kemendagri.go.id/">
+                              &bull; Badan Pengembangan S.D.M</a></li>
+                                                     <li><a target="_blank"  style="color: #fff;font-size: 12px"  href="http://www.ipdn.ac.id/beta/">
+                              &bull; Institut Pemerintahan Dalam Negeri</a></li>
+                            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  </footer>
+  <!-- Footer end -->
+  <div id="create-account" class="white-popup mfp-with-anim mfp-hide">
+
+  </div>
+  <div id="log-in" class="white-popup mfp-with-anim mfp-hide">
+
+  </div>
+</div>
+  <script>
+            $( document ).ready(function() {
+                 
+               
+                 
+            });
+        </script>
+ 
+ 
+<script src="http://www.bangda.kemendagri.go.id/js/jqueryui/js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="http://www.bangda.kemendagri.go.id/js/circfull/js/jquery.circliful.js"></script>  
+  
+<link rel="stylesheet" href="http://www.bangda.kemendagri.go.id/js/circfull/css/material-design-iconic-font.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://www.bangda.kemendagri.go.id/js/circfull/css/jquery.circliful.css">
+
+<script src="http://www.bangda.kemendagri.go.id/js/jquery.easing.1.3.js"></script> 
+<!-- bootstrab js --> 
+<script src="http://www.bangda.kemendagri.go.id/js/bootstrap.js"></script> 
+<!--style switcher--> 
+<script src="http://www.bangda.kemendagri.go.id/js/style-switcher.js"></script> <!--wow animation--> 
+<script src="http://www.bangda.kemendagri.go.id/js/wow.min.js"></script> 
+<!-- time and date --> 
+<script src="http://www.bangda.kemendagri.go.id/js/moment.min.js"></script> 
+<!--news ticker--> 
+<script src="http://www.bangda.kemendagri.go.id/js/jquery.ticker.js"></script> 
+<!-- owl carousel --> 
+<script src="http://www.bangda.kemendagri.go.id/js/owl.carousel.js"></script> 
+<!-- magnific popup --> 
+<script src="http://www.bangda.kemendagri.go.id/js/jquery.magnific-popup.js"></script> 
+<!-- weather --> 
+<script src="http://www.bangda.kemendagri.go.id/js/jquery.simpleWeather.min.js"></script> 
+<!-- calendar--> 
+<script src="http://www.bangda.kemendagri.go.id/js/jquery.pickmeup.js"></script> 
+<!-- go to top --> 
+<script src="http://www.bangda.kemendagri.go.id/js/jquery.scrollUp.js"></script> 
+<!-- scroll bar --> 
+<script src="http://www.bangda.kemendagri.go.id/js/jquery.nicescroll.js"></script> 
+<script src="http://www.bangda.kemendagri.go.id/js/jquery.nicescroll.plus.js"></script> 
+<!--masonry--> 
+<script src="http://www.bangda.kemendagri.go.id/js/masonry.pkgd.js"></script> 
+<!--media queries to js--> 
+<script src="http://www.bangda.kemendagri.go.id/js/enquire.js"></script> 
+<!--custom functions--> 
+<script src="http://www.bangda.kemendagri.go.id/js/custom-fun.js"></script>
+
+          
+</body>
+</html>
